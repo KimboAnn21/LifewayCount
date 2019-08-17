@@ -1,0 +1,17 @@
+{
+  "name": "lifewaycount",
+  "version": "3.6.10",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kim Grossman",
+  "license": "ISC"
+}
