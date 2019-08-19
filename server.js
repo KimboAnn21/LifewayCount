@@ -29,7 +29,7 @@ app.post("/wordcount", (req, res) => {
     });
 });
 app.get('/', function(req, res) {
-    res.send(count);
+    res.json(count);
 
 })
 app.listen(PORT, () => {
