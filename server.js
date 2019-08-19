@@ -13,7 +13,7 @@ app.post("/wordcount", (req, res) => {
 
     if(messages[req.body.id] !== undefined) {
         res.send(`ID: ${req.body.id} is already being used.`);
-        return;
+          return;
     }
 
     messages[req.body.id] = req.body.message;
@@ -28,7 +28,10 @@ app.post("/wordcount", (req, res) => {
         count: count
     });
 });
+app.get('/', function(req, res) {
+    res.send(count);
 
+})
 app.listen(PORT, () => {
     console.log(`App is running on ${PORT}`)
 })

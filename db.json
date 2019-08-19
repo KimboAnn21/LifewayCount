@@ -1,0 +1,40 @@
+{
+  "wordcount": [
+    {
+      "id": 1,
+      "message": "Thank you!"
+    },
+    {
+      "id": 2,
+      "message": "Wordcount Server!"
+    },
+    {
+      "id": 3,
+      "message": "App.get and App.post!"
+    },
+    {
+      "id": 4,
+      "message": "Coding is awesome!"
+    },
+    {
+      "message": "Backend server",
+      "id": 5
+    },
+    {
+      "message": "Backend server",
+      "id": 6
+    },
+    {
+      "message": "Backend server",
+      "id": 7
+    },
+    {
+      "message": "Backend server",
+      "id": 8
+    },
+    {
+      "message": "Backend server",
+      "id": 9
+    }
+  ]
+}
